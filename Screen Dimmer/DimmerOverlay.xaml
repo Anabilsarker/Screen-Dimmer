@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:ScreenDimmer"
         mc:Ignorable="d"
         Title="DimmerOverlay" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None"
-        Background="Transparent" WindowStartupLocation="CenterScreen" WindowState="Normal" >
-    <Grid Background="Black" Opacity="0.3">
-        
-    </Grid>
+        Background="Transparent" WindowStartupLocation="CenterScreen" WindowState="Normal" Topmost="True">
+    <Grid x:Name="dimmerOverlay" Background="Black" Opacity="0.6"/>
 </Window>
